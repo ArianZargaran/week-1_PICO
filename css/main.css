@@ -1,29 +1,32 @@
+body {
+  font-family: times, serif; }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  height: 100px;
-  background-color: #000;
-}
+  padding: 0 35px;
+  height: 80px;
+  background-color: #262626;
+  box-sizing: border-box; }
 
-header a {
+.logo {
   text-decoration: none;
-  left: 20px;
   color: #fff;
-}
+  font-weight: bold;
+  font-size: 24px; }
 
-h1 {
-  font-size: 25px;
-}
+.top-menu {
+  margin-top: 5px;
+  padding-right: 2px; }
+  .top-menu .top-menu__item {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #D8D8D2;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 35px; }
+    .top-menu .top-menu__item:first-child {
+      color: #ff6760; }
 
-header ol li {
-  color: #fff;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-header ol li:first-child {
-  color: #ff0000;
-}
+/*# sourceMappingURL=main.css.map */

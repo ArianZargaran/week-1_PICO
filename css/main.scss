@@ -1,0 +1,36 @@
+body {
+  font-family: times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  height: 80px;
+  background-color: rgb(38,38,38);
+  box-sizing: border-box;
+}
+
+.logo {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+font-size: 24px;
+}
+
+.top-menu {
+  margin-top: 5px;
+  padding-right: 2px;
+.top-menu__item {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #D8D8D2;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 35px;
+  &:first-child {
+    color: #ff6760;
+  }
+}
+}
