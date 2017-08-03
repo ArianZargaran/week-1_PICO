@@ -2,6 +2,8 @@ body {
   font-family: times, serif;
 }
 
+/*HEADER*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -32,5 +34,51 @@ font-size: 24px;
   &:first-child {
     color: #ff6760;
   }
+}
+}
+
+/*MAIN SECTION*/
+
+.main {
+  height: 412px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2A2A2A;
+  text-align: center;
+  font-weight: 100;
+  color: #d8d8d8;
+  .main__heading {
+    padding-top: 75px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    .main__paragraph--bold {
+      font-weight: bold;
+    }
+    }
+    .main__paragraph {
+      font-size: 36px;
+      line-height: 50px;
+      .main__paragraph--draft{
+        color: #ff6760;
+      }
+  }
+  .main__button--default {
+    margin-top: 35px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6760;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+  }
+}
+
+/*FEATURES SECTION*/
+.features-menu {
+  display: flex;
+  flex-basis: 33%;
+.features-item {
+  text-align: center;
 }
 }
