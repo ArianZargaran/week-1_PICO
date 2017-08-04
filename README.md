@@ -1,4 +1,6 @@
 # week-1_PICO
-Asset #1. Replicate PICO website
-Today: Main section completed.
-Tomorrow: Continue with features.
+Coding Bootcamp Project. Asset #1. Replicate PICO website
+Task completed.
+
+
+![Sample preview PICO Replica](https://arianzargaran.github.io/week-1_PICO/preview.png)
